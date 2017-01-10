@@ -1,0 +1,32 @@
+{
+  "name": "sass-helper",
+  "description": "Sass helper for ionic web app &amp; web page.",
+  "main": [
+    "src",
+    "dist/sass-helper.css"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ionic",
+    "sass",
+    "webapp"
+  ],
+  "homepage": "https://github.com/smalleast/sass-helper",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ],
+  "dependencies": {
+    "ionic": "^1.3.0"
+  }
+}

@@ -1,0 +1,13 @@
+/**font-size Start**/
+$font-from:map_get($font-size-map, 'from');
+$font-to:map_get($font-size-map, 'to');
+
+
+@for $i from $font-from through $font-to {
+  .f#{$i} {
+    font-size: #{$i}px;
+  }
+}
+
+
+/**font-size  End**/

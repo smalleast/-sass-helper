@@ -1,0 +1,12 @@
+/**background Start**/
+
+@each $key,$value in $color-map{
+  .bg-#{$key}{
+    background-color:$value;
+  }
+}
+
+.bgn{
+  background: none;
+}
+/**background  End**/

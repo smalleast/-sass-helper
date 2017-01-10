@@ -1,0 +1,23 @@
+/**align Start**/
+.vat {
+  &,
+  &_ > * {
+    vertical-align: top;
+  }
+}
+
+.vab {
+  &,
+  &_ > *{
+    vertical-align: bottom;
+  }
+}
+
+.vam {
+  &,
+  &_ > *{
+    vertical-align: middle;
+  }
+}
+
+/**align  End**/

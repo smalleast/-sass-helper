@@ -1,0 +1,68 @@
+/**margin Start**/
+$margin-map: ( top, right, bottom, left );
+@each $item in $margin-map {
+  .margin-#{$item} {
+    margin-#{$item}: $content-margin;
+  }
+}
+
+.auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.m0a {
+  margin: 0 auto;
+}
+
+.margin-vertical {
+  margin: {
+    left: $content-margin;
+    right: $content-margin;
+  }
+}
+
+.margin-horizontal {
+  margin: {
+    top: $content-margin;
+    bottom: $content-margin;
+  }
+}
+
+@each $value in $margin-list{
+  .m#{$value}{
+    margin:#{$value}px;
+  }
+
+  .mt#{$value}{
+    margin-top:#{$value}px;
+  }
+
+  .mr#{$value}{
+    margin-right:#{$value}px;
+  }
+
+  .mb#{$value}{
+    margin-bottom:#{$value}px;
+  }
+
+  .ml#{$value}{
+    margin-left:#{$value}px;
+  }
+
+  .mx#{$value}{
+    margin-left:#{$value}px;
+    margin-right:#{$value}px;
+  }
+
+  .my#{$value}{
+    margin-top:#{$value}px;
+    margin-bottom:#{$value}px;
+  }
+}
+
+/**margin  End**/

@@ -1,0 +1,34 @@
+/**margin Start**/
+@each $value in $padding-list{
+  .p#{$value}{
+    padding:#{$value}px;
+  }
+
+  .pt#{$value}{
+    padding-top:#{$value}px;
+  }
+
+  .pr#{$value}{
+    padding-right:#{$value}px;
+  }
+
+  .pb#{$value}{
+    padding-bottom:#{$value}px;
+  }
+
+  .pl#{$value}{
+    padding-left:#{$value}px;
+  }
+
+  .px#{$value}{
+    padding-left:#{$value}px;
+    padding-right:#{$value}px;
+  }
+
+  .py#{$value}{
+    padding-top:#{$value}px;
+    padding-bottom:#{$value}px;
+  }
+}
+
+/**margin  End**/

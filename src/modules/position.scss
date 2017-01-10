@@ -1,0 +1,23 @@
+/**position Start**/
+.abs {
+  &,
+  &_ > * {
+    position: absolute;
+  }
+}
+
+.rel {
+  &,
+  &_ > * {
+    position: relative;
+  }
+}
+
+.fixed {
+  &,
+  &_ > * {
+    position: fixed;
+  }
+}
+
+/**position  End**/
