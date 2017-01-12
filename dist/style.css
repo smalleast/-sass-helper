@@ -1572,7 +1572,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /**font-size  End**/
 /**blank Start**/
-.blank, .blank-1, .blank-2, .blank-3, .blank-4, .blank-5, .blank-6, .blank-7, .blank-8, .blank-9, .blank-10, .blank-12, .blank-14, .blank-16, .blank-18, .blank-20, .blank-30, .blank-40, .blank-50 {
+.blank, .blank-1, .blank-2, .blank-3, .blank-4, .blank-5, .blank-6, .blank-7, .blank-8, .blank-9, .blank-10, .blank-12, .blank-14, .blank-16, .blank-18, .blank-20, .blank-25, .blank-30, .blank-35, .blank-40, .blank-45, .blank-50, .blank-55, .blank-60, .blank-65, .blank-70, .blank-75, .blank-80, .blank-85, .blank-90, .blank-95, .blank-100 {
   display: block;
   font-size: 0;
   overflow: hidden;
@@ -1639,16 +1639,68 @@ h1, h2, h3, h4, h5, h6 {
   height: 20px;
 }
 
+.blank-25 {
+  height: 25px;
+}
+
 .blank-30 {
   height: 30px;
+}
+
+.blank-35 {
+  height: 35px;
 }
 
 .blank-40 {
   height: 40px;
 }
 
+.blank-45 {
+  height: 45px;
+}
+
 .blank-50 {
   height: 50px;
+}
+
+.blank-55 {
+  height: 55px;
+}
+
+.blank-60 {
+  height: 60px;
+}
+
+.blank-65 {
+  height: 65px;
+}
+
+.blank-70 {
+  height: 70px;
+}
+
+.blank-75 {
+  height: 75px;
+}
+
+.blank-80 {
+  height: 80px;
+}
+
+.blank-85 {
+  height: 85px;
+}
+
+.blank-90 {
+  height: 90px;
+}
+
+.blank-95 {
+  height: 95px;
+}
+
+.blank-100 {
+  height: 100px;
 }
 
 /**blank  End**/
@@ -1814,6 +1866,51 @@ h1, h2, h3, h4, h5, h6 {
 
 .lh50 {
   line-height: 50px;
+}
+
+.hlh60 {
+  height: 60px;
+  line-height: 60px;
+}
+
+.lh60 {
+  line-height: 60px;
+}
+
+.hlh70 {
+  height: 70px;
+  line-height: 70px;
+}
+
+.lh70 {
+  line-height: 70px;
+}
+
+.hlh80 {
+  height: 80px;
+  line-height: 80px;
+}
+
+.lh80 {
+  line-height: 80px;
+}
+
+.hlh90 {
+  height: 90px;
+  line-height: 90px;
+}
+
+.lh90 {
+  line-height: 90px;
+}
+
+.hlh100 {
+  height: 100px;
+  line-height: 100px;
+}
+
+.lh100 {
+  line-height: 100px;
 }
 
 /**line-height  End**/
