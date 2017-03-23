@@ -1,8 +1,0 @@
-/**color Start**/
-
-@each $key,$value in $color-map{
-  .c-#{$key}{
-    color:$value;
-  }
-}
-/**color  End**/

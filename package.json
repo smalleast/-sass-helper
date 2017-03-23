@@ -24,5 +24,8 @@
     "lodash": "~3.10.1",
     "rename": "^1.0.3",
     "yargs": "^6.0.0"
+  },
+  "dependencies": {
+    "generators-sass": "github:smalleast/generator-sass"
   }
 }
